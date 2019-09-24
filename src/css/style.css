@@ -28,6 +28,21 @@
     *zoom: 1;
 }
 
+/*FONT*/
+@font-face {
+    font-family: 'brandon';
+    src: url('/vendors/fonts/BrandonGrotesque-Black.woff') format('woff'),
+        url('/vendors/fonts/BrandonGrotesque-Black.woff2') format('woff2'),
+        url('/vendors/fonts/BrandonGrotesque-Bold.woff') format('woff'),
+        url('/vendors/fonts/BrandonGrotesque-Bold.woff2') format('woff2'),
+        url('/vendors/fonts/BrandonGrotesque-Medium.woff') format('woff'),
+        url('/vendors/fonts/BrandonGrotesque-Medium.woff2') format('woff2'),
+        url('/vendors/fonts/BrandonGrotesque-Regular.woff') format('woff'),
+        url('/vendors/fonts/BrandonGrotesque-Regular.woff2') format('woff2'),
+        url('/vendors/fonts/BrandonGrotesque-RegularItalic.woff') format('woff'),
+        url('/vendors/fonts/BrandonGrotesque-RegularItalic.woff2') format('woff2');
+}
+
 /*==============DEFAULT STYLE=================================*/
 * {
     padding: 0;
@@ -40,5 +55,72 @@ html {
     background-color: rgb(255, 255, 255);
     font-size: 30px;
     font-weight: 300;
+}
+
+.tengah {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+.tengah h1 {
+    font-family: 'Sacramento', cursive;
     color: #1e836c;
+    font-style: italic;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 10px;
+    font-size: 350%;
+}
+
+.tengah p {
+    text-align: center;
+    color: #1e836c;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*HEADER*/
+section.top {
+    background-color: rgb(224, 235, 232);
+    font-style: normal;
+    font-size: 21px;
+    width: 100%;
+}
+
+div.avatar {
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+}
+
+div.avatar img {
+    margin: 10px;
+}
+
+.small {
+    width: 50px;
+}
+
+.navigation {
+    float: right;
+}
+
+.navigation ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 2em;
+}
+
+.navigation ul li a {
+    color: #1e836c;
+    text-decoration: none;
+    line-height: 5;
+    transition: 0.7s;
+}
+
+.navigation ul li a:hover {
+    color: #21564b;
 }
