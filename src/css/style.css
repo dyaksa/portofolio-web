@@ -57,12 +57,16 @@ html {
     font-weight: 300;
 }
 
+header {
+    padding: 28px 0;
+}
+
 .tengah {
     margin: 0 auto;
     width: 1024px;
 }
 
-.tengah h1 {
+.center h1 {
     font-family: 'Sacramento', cursive;
     color: #1e836c;
     font-style: italic;
@@ -72,7 +76,7 @@ html {
     font-size: 350%;
 }
 
-.tengah p {
+.center p {
     text-align: center;
     color: #1e836c;
     font-weight: bold;
@@ -89,6 +93,7 @@ section.top {
 }
 
 div.avatar {
+    display: inline-block;
     background-color: #fff;
     width: 80px;
     height: 80px;
@@ -105,10 +110,6 @@ div.avatar img {
     width: 50px;
 }
 
-.navigation {
-    float: right;
-}
-
 .navigation ul li {
     list-style: none;
     display: inline-block;
@@ -118,7 +119,7 @@ div.avatar img {
 .navigation ul li a {
     color: #1e836c;
     text-decoration: none;
-    line-height: 5;
+    line-height: 4;
     transition: 0.7s;
 }
 
