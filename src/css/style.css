@@ -361,3 +361,13 @@ footer ul li a {
 div.social {
     padding: 30px;
 }
+
+p.copyright {
+    font-size: 0.5em;
+    color: #545454;
+}
+
+p.copyright a {
+    text-decoration: none;
+    color: #545454;
+}
