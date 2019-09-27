@@ -261,3 +261,103 @@ section.about h3 {
     margin-bottom: 10px;
     color: #1e836c;
 }
+
+/*WHAT  I DO*/
+
+section.what-i-do {
+    margin-top: 30px;
+}
+
+section.what-i-do h2 {
+    font-size: 1.5em;
+    text-align: center;
+    color: #21564b;
+    margin: 20px 0 10px 0;
+}
+
+section.what-i-do img {
+    width: 200px;
+    height: 200px;
+}
+
+section.what-i-do h3 {
+    font-size: 1em;
+    padding: 20px 0;
+    color: #1e836c;
+}
+
+section.what-i-do p {
+    font-size: 0.6em;
+    line-height: 2em;
+}
+
+#develop {
+    margin: 40px 0;
+}
+
+#design {
+    margin: 40px 0;
+}
+
+section.i-can-help {
+    padding: 1em 0 3em;
+}
+
+section.i-can-help h2 {
+    color: #1e836c;
+    font-size: 2em;
+    padding: 20px 0;
+    font-weight: 400;
+}
+
+section.i-can-help h3 {
+    color: #45b29a;
+    font-size: 1em;
+    padding-top: 1em;
+}
+
+section.i-can-help p {
+    font-size: 0.7em;
+    color: #545454;
+    font-weight: normal;
+    padding: 0 150px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #45b29a;
+    transition: 0.7s;
+}
+
+.btn a {
+    color: #545454;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 3px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.btn:hover {
+    background-color: #1e836c;
+}
+
+footer {
+    background-color: #c5ded7;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    font-size: 0.5em;
+}
+
+div.social {
+    padding: 30px;
+}
